@@ -11,8 +11,5 @@ describe('Service: modalService', function () {
     modalService = _modalService_;
   }));
 
-  it('should do something', function () {
-    expect(!!modalService).toBe(true);
-  });
 
 });
