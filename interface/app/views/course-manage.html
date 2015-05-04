@@ -1,0 +1,53 @@
+<lab-header></lab-header>
+<div class="container">
+  <div class="command-nav-container">
+    <tabset>
+      <tab name="">
+        <tab-heading class="users" ui-sref="usermanage">
+          <span class="title">用户管理</span>
+          <span class="info">管理用户权限和资料</span>
+        </tab-heading>
+      </tab>
+      <tab name="">
+        <tab-heading class="spaces" ui-sref="labmanage">
+          <span class="title">实验室管理</span>
+          <span class="info">配置实验室信息</span>
+        </tab-heading>
+
+      </tab>
+
+      <tab name="">
+        <tab-heading class="spaces" ui-sref="semestermanage">
+          <span class="title">学期管理</span>
+          <span class="info">本学期课程设置</span>
+        </tab-heading>
+      </tab>
+      
+      <tab name="" active="true">
+        <tab-heading class="reservation" ui-sref="coursemanage">
+          <span class="title">实验课程排布</span>
+          <span class="info">配置课程相关实验排列</span>
+        </tab-heading>
+        <div class="command-content-container user" style="background-color: #f1f1f1;">
+          <tabset vertical="true" type="pills nav-calendar">
+
+            <tab class="sub">
+              <tab-heading>
+                <span class="name">北楼1101</span>
+              </tab-heading>
+              <div class="tableTitle">这里放日历</div>
+              
+            </tab>
+
+          </tabset>
+        </div>
+      </tab>
+      <tab>
+        <tab-heading class="cdiweb" ui-sref="applymanage">
+          <span class="title">申请审核</span>
+          <span class="info">审核实验室预定申请</span>
+        </tab-heading>
+      </tab>
+    </tabset>
+  </div>
+</div>
